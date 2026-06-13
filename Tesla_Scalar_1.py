@@ -37,7 +37,7 @@ W_TALAS = 0.7
 W_FREQ = 0.3
 
 # Korak 2: primena talasa na CSV.
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4632_k47.csv")
+CSV_PATH = Path("/data/loto7hh_4632_k47.csv")
 MIN_BROJ = 1
 MAX_BROJ = 39
 KOLONE = [f"Num{i}" for i in range(1, 8)]
@@ -297,84 +297,39 @@ max S: 0.9999984566
 max |E_x|: 0.1010872708
 ukupna gustina energije: 124.8336223276
 
-Slika talasa: /Users/4c/Desktop/GHQ/Tesla/tesla_scalar_1.png
-Slika talasa: /Users/4c/Desktop/GHQ/Tesla/tesla_scalar_1.jpg
+Slika talasa: /Tesla/tesla_scalar_1.png
+Slika talasa: /Tesla/tesla_scalar_1.jpg
 
 
 Tesla Scalar - korak 2 (tezinski: talas + prava frekvencija)
-CSV: /Users/4c/Desktop/GHQ/data/loto7hh_4632_k47.csv | Izvlacenja: 4632 | tezine: talas=0.7 freq=0.3
+CSV: /data/loto7hh_4632_k47.csv | Izvlacenja: 4632 | tezine: talas=0.7 freq=0.3
 
 Top 10 brojeva po kombinovanom skoru (tezinski talas + frekvencija):
   34  skor=0.9213793103  freq=0.02692  (pojava=873)
-  35  skor=0.8176249656  freq=0.02600  (pojava=843)
+   x  skor=0.8176249656  freq=0.02600  (pojava=843)
   08  skor=0.7603045533  freq=0.02810  (pojava=911)
-  21  skor=0.6931601524  freq=0.02551  (pojava=827)
+   y  skor=0.6931601524  freq=0.02551  (pojava=827)
   13  skor=0.6706469920  freq=0.02554  (pojava=828)
-  31  skor=0.6127524074  freq=0.02560  (pojava=830)
+   z  skor=0.6127524074  freq=0.02560  (pojava=830)
   33  skor=0.6112555867  freq=0.02634  (pojava=854)
-  37  skor=0.5766162438  freq=0.02652  (pojava=860)
+   x  skor=0.5766162438  freq=0.02652  (pojava=860)
   03  skor=0.5593769679  freq=0.02547  (pojava=826)
   25  skor=0.5585228387  freq=0.02591  (pojava=840)
 
 
-Tabela pravih frekvencija (opadajuce po freq, pa po broju):
-  broj | pojava |   udeo
-  -----+--------+--------
-   08  |   911  | 0.02810
-   23  |   905  | 0.02791
-   34  |   873  | 0.02692
-   26  |   869  | 0.02680
-   11  |   861  | 0.02655
-   37  |   860  | 0.02652
-   32  |   857  | 0.02643
-   33  |   854  | 0.02634
-   22  |   851  | 0.02625
-   39  |   849  | 0.02618
-   29  |   849  | 0.02618
-   10  |   845  | 0.02606
-   07  |   844  | 0.02603
-   35  |   843  | 0.02600
-   09  |   843  | 0.02600
-   38  |   842  | 0.02597
-   25  |   840  | 0.02591
-   24  |   840  | 0.02591
-   16  |   837  | 0.02581
-   31  |   830  | 0.02560
-   13  |   828  | 0.02554
-   05  |   828  | 0.02554
-   21  |   827  | 0.02551
-   03  |   826  | 0.02547
-   02  |   825  | 0.02544
-   28  |   821  | 0.02532
-   18  |   821  | 0.02532
-   06  |   816  | 0.02517
-   19  |   814  | 0.02510
-   04  |   812  | 0.02504
-   12  |   810  | 0.02498
-   14  |   809  | 0.02495
-   15  |   798  | 0.02461
-   27  |   789  | 0.02433
-   01  |   788  | 0.02430
-   30  |   787  | 0.02427
-   36  |   786  | 0.02424
-   20  |   770  | 0.02375
-   17  |   766  | 0.02362
-  ukupno pojava: 32424
-
-
 Predlozene kombinacije (rangirane po skoru kombinacije):
-  01. 06 12 13 25 34 35 39  skor_komb=4.5418643612
-  02. 07 08 13 23 24 25 34  skor_komb=4.1634211362
-  03. 08 17 18 23 26 33 34  skor_komb=3.9810045066
-  04. 02 11 16 21 25 34 39  skor_komb=3.9122219361
-  05. 17 25 28 29 31 33 34  skor_komb=3.7585875317
-  06. 06 07 13 31 32 37 39  skor_komb=3.6671382613
-  07. 10 11 14 21 23 32 34  skor_komb=3.5510319632
-  08. 04 11 25 30 32 33 37  skor_komb=3.2859546418
-  09. 09 10 11 21 30 33 38  skor_komb=3.1775679882
-  10. 02 05 08 13 19 30 39  skor_komb=3.1243055239
+  01. 06 x 13 y 34 z 39  skor_komb=4.5418643612
+  02. 07 x 13 y 24 z 34  skor_komb=4.1634211362
+  03. 08 x 18 y 26 z 34  skor_komb=3.9810045066
+  04. 02 x 16 y 25 z 39  skor_komb=3.9122219361
+  05. 17 x 28 y 31 z 34  skor_komb=3.7585875317
+  06. 06 x 13 y 32 z 39  skor_komb=3.6671382613
+  07. 10 x 14 y 23 z 34  skor_komb=3.5510319632
+  08. 04 x 25 y 32 z 37  skor_komb=3.2859546418
+  09. 09 x 11 y 30 z 38  skor_komb=3.1775679882
+  10. 02 x 08 y 19 z 39  skor_komb=3.1243055239
 
-Sacuvano: /Users/4c/Desktop/GHQ/Tesla/tesla_scalar_1.txt
+Sacuvano: /Tesla/tesla_scalar_1.txt
 """
 
 
